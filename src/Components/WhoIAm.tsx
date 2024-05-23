@@ -3,8 +3,9 @@ import React from 'react';
 
 const WhoIAm: React.FC = () => {
   return (
-    <div className="playfair-regular text-center items-center justify-center mt-48 bg-cover bg-center flex flex-col w-3/5">
-    <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+    <div className="playfair-regular text-center items-center justify-center mt-48 bg-cover bg-center flex flex-col w-3/5  ">
+    <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl ">   
+
     I am a fully insured, British Association of Counselling and Psychotherapy (BACP) Accredited therapist with over 10 years experience supporting people on a crisis telephone line, in a bereavement service, and with staff at a large NHS hospital and a college of further education. 
 </h1>
 <p className="mt-6 text-lg leading-8 text-gray-600">

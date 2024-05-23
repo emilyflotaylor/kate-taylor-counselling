@@ -5,18 +5,15 @@ import WhoIAm from './Components/WhoIAm';
 import WhatIDo from './Components/WhatIDo';
 import GetInTouch from './Components/GetInTouch';
 import Testimonial from './Components/Testimonial';
-import Contact from './Components/Contact';
 
 const App: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center p-24">
       <Hero />
       <WhoIAm />
       <WhatIDo/>
       <Testimonial/>
-
       <GetInTouch/>
-      <Contact/>
     </div>
   );
 }

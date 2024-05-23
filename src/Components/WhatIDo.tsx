@@ -3,7 +3,7 @@ import React from 'react';
 
 const WhatIDo: React.FC = () => {
   return (
-    <div className="playfair-regular text-center items-center justify-center mt-48 bg-cover bg-center flex flex-col w-3/5">
+    <div className="playfair-regular text-center items-center justify-center mt-48 bg-cover bg-center flex flex-col w-3/5 ">
     <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
     I have helped people from all walks of life navigate grief and loss, anxiety, depression, work-stress, ME/Chronic Fatigue, women’s and relationship issues. 
 </h1>
