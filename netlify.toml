@@ -2,5 +2,11 @@
   command = "npm run build:ci"
   publish = "build"
 
-[context.production.environment]
-  CI = "false"
+[context.production]
+  environment = { 
+    CI = "false",
+    NODE_VERSION = "18"
+  }
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby-cache"
