@@ -1,22 +1,22 @@
 import React from 'react';
 import './App.css';
+import Hero from './Components/Hero';
+import WhoIAm from './Components/WhoIAm';
+import WhatIDo from './Components/WhatIDo';
+import GetInTouch from './Components/GetInTouch';
+import Testimonial from './Components/Testimonial';
+import Contact from './Components/Contact';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col items-center justify-center">
+      <Hero />
+      <WhoIAm />
+      <WhatIDo/>
+      <Testimonial/>
+
+      <GetInTouch/>
+      <Contact/>
     </div>
   );
 }

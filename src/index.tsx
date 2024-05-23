@@ -1,7 +1,11 @@
+// src/index.tsx
+
+import './index.css';
+import './fonts.css'; // Import the custom fonts CSS
 import './tailwind.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -1,0 +1,15 @@
+/* src/fonts.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+.playfair-regular {
+  font-family: 'Playfair', serif;
+  font-weight: 400;
+}
+
+.playfair-bold {
+  font-family: 'Playfair', serif;
+  font-weight: 700;
+}
+
+/* Add more custom classes as needed */
