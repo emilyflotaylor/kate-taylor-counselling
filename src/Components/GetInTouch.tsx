@@ -6,16 +6,21 @@ const GetInTouch: React.FC = () => {
       <div>
       <h1 className="text-xl font-bold tracking-tight text-[#c87467] sm:text-2xl ">   
 GET IN TOUCH</h1>
+        <h1 className="text-xl font-bold tracking-tight text-gray-900 sm:text-3xl mt-6">   
+       I understand it can feel overwhelming finding the support you need but please don’t stop looking.
+        </h1>
         <hr className="my-12 h-0.5 border-t-0 bg-gray-600 opacity-100 dark:opacity-50" />
-        <p className="mt-6 text-lg leading-8 text-gray-600">
-          I believe a safe, trusting and non-judgemental relationship with the right therapist, empowers clients to bring about permanent, positive change. I understand it can feel overwhelming finding the support you need but please don’t stop looking.
+
+        <p className="text-lg leading-8 text-gray-600 sm:col-span-1 mt-6">
+          I have a peaceful, comfortable therapy room near the centre of Wimbledon with free on-site parking. I offer adults (over 18) short and long-term, in-person and online sessions. I can be flexible with telephone and walking therapy sessions, depending on individual circumstances. Leave a message to arrange a free initial chat.
         </p>
         <p className="text-lg leading-8 text-gray-600 sm:col-span-1 mt-6">
-          I have a peaceful, comfortable therapy room near the centre of Wimbledon with free on-site parking. I offer short and long-term, in-person and online sessions but can be flexible with telephone and walking therapy sessions, depending on individual circumstances. Leave a message to arrange a free initial chat.
+         I offer adults (over 18) short and long-term, in-person and online sessions. I can be flexible with telephone and walking therapy sessions, depending on individual circumstances. Leave a message to arrange a free initial chat.
         </p>
+     
       </div>
       <div className="playfair-regular justify-center flex flex-col w-full gap-12">
-        <form action="#" method="POST" className="w-full">
+        <form action="#" method="POST" className="w-full mt-12">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
               <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">

@@ -25,6 +25,10 @@ I also have empathy for the reasons you might consciously work hard at masking, 
 
 But my professional and personal life have demonstrated that these ways of living are hard work and your true self, who needs and deserves to be accepted and loved to thrive, gets lost in the process. This can become incredibly debilitating, leading to periods of depression, anxiety, physical illness, addiction or even breakdown. 
 </p>
+<p className="mt-6 text-lg leading-8 text-gray-600">
+
+
+I believe a safe, trusting and non-judgemental relationship with the right therapist, empowers clients to bring about permanent, positive change.</p>
 </div>
 </div>
 
