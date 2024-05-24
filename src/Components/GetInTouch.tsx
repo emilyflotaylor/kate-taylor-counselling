@@ -4,9 +4,8 @@ const GetInTouch: React.FC = () => {
   return (
     <div className="playfair-regular w-4/5 grid grid-cols-1 lg:grid-cols-2 gap-16 mb-48 mx-auto mt-24">
       <div>
-        <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-          Get in Touch
-        </h1>
+      <h1 className="text-xl font-bold tracking-tight text-[#c87467] sm:text-2xl ">   
+GET IN TOUCH</h1>
         <hr className="my-12 h-0.5 border-t-0 bg-gray-600 opacity-100 dark:opacity-50" />
         <p className="mt-6 text-lg leading-8 text-gray-600">
           I believe a safe, trusting and non-judgemental relationship with the right therapist, empowers clients to bring about permanent, positive change. I understand it can feel overwhelming finding the support you need but please don’t stop looking.
