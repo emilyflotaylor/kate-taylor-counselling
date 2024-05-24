@@ -12,12 +12,17 @@ GET IN TOUCH</h1>
         <hr className="my-12 h-0.5 border-t-0 bg-gray-600 opacity-100 dark:opacity-50" />
 
         <p className="text-lg leading-8 text-gray-600 sm:col-span-1 mt-6">
-          I have a peaceful, comfortable therapy room near the centre of Wimbledon with free on-site parking. I offer adults (over 18) short and long-term, in-person and online sessions. I can be flexible with telephone and walking therapy sessions, depending on individual circumstances. Leave a message to arrange a free initial chat.
+          I have a peaceful, comfortable therapy room near the centre of Wimbledon with free on-site parking.
+        </p>
+   
+        <p className="text-lg leading-8 text-gray-600 sm:col-span-1 mt-6">
+         I offer adults (over 18) short and long-term, in-person and online sessions. I can be flexible with telephone and walking therapy sessions, depending on individual circumstances. I charge £60 per 60-minute session.
         </p>
         <p className="text-lg leading-8 text-gray-600 sm:col-span-1 mt-6">
-         I offer adults (over 18) short and long-term, in-person and online sessions. I can be flexible with telephone and walking therapy sessions, depending on individual circumstances. Leave a message to arrange a free initial chat.
+
+        Leave a message to arrange a free initial chat.
         </p>
-     
+
       </div>
       <div className="playfair-regular justify-center flex flex-col w-full gap-12">
         <form action="#" method="POST" className="w-full mt-12">
