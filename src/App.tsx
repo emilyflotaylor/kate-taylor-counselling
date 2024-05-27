@@ -5,6 +5,7 @@ import WhoIAm from './Components/WhoIAm';
 import WhatIDo from './Components/WhatIDo';
 import GetInTouch from './Components/GetInTouch';
 import Testimonial from './Components/Testimonial';
+import Footer from './Components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <WhatIDo/>
       <Testimonial/>
       <GetInTouch/>
+      <Footer/>
     </div>
   );
 }

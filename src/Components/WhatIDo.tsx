@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatIDo: React.FC = () => {
   return (
-    <div className="playfair-regular text-left justify-center mt-48 grid grid-cols-1 lg:grid-cols-2 w-4/5 mx-auto gap-16">
+    <div className="playfair-regular text-left justify-center mt-48 grid grid-cols-1 lg:grid-cols-2 w-4/5 mx-auto lg:gap-16">
       <div className="relative w-full">
         <h1 className="text-xl font-bold tracking-tight text-[#c87467] sm:text-2xl">   
           WHAT I DO
@@ -13,7 +13,7 @@ const WhatIDo: React.FC = () => {
         <hr className="my-12 h-0.5 border-t-0 bg-gray-600 opacity-100 dark:opacity-50 lg:hidden" />
       </div>
       <div className="w-full">
-        <p className=" text-lg leading-8 text-gray-600 mt-14">
+        <p className="text-lg leading-8 text-gray-600 lg:mt-14">
           I understand our reactions to life’s inevitable challenges are often automatic, unconscious and unhelpful coping mechanisms, rooted in our past. What is triggered often relates to old attachment and trauma wounds.
         </p>
         <p className="mt-6 text-lg leading-8 text-gray-600">
