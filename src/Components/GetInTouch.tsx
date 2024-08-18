@@ -3,21 +3,30 @@ import emailjs from 'emailjs-com';
 
 const GetInTouch: React.FC = () => {
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
 
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_1v5alca', 'template_zebq9mh', e.target as HTMLFormElement, 'O8976Yj4uyBBsGfxa')
-        .then((result) => {
-            console.log(result.text);
-            alert('Message sent successfully!');
-        }, (error) => {
-            console.log(error.text);
-            alert('Failed to send message, please try again.');
-        });
-  
-      e.currentTarget.reset(); // Optional: Reset the form after submission
-    };
+    // Access the email input field
+    const emailInput = e.currentTarget.email.value;
+
+    // Basic email format validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(emailInput)) {
+      alert('Please enter a valid email address.');
+      return;
+    }
+
+    emailjs.sendForm('service_1v5alca', 'template_zebq9mh', e.target as HTMLFormElement, 'O8976Yj4uyBBsGfxa')
+      .then((result) => {
+          console.log(result.text);
+          alert('Message sent successfully!');
+      }, (error) => {
+          console.log(error.text);
+          alert('Failed to send message, please try again.');
+      });
+
+    e.currentTarget.reset(); // Optional: Reset the form after submission
+  };
 
   return (
     <div className="playfair-regular w-4/5 grid grid-cols-1 lg:grid-cols-2 gap-16 mb-48 mx-auto">
@@ -55,6 +64,7 @@ const GetInTouch: React.FC = () => {
                   id="first-name"
                   autoComplete="given-name"
                   className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  required
                 />
               </div>
             </div>
@@ -70,6 +80,7 @@ const GetInTouch: React.FC = () => {
                   id="email"
                   autoComplete="email"
                   className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  required
                 />
               </div>
             </div>
@@ -84,6 +95,7 @@ const GetInTouch: React.FC = () => {
                   id="message"
                   rows={4}
                   className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  required
                 />
               </div>
             </div>
