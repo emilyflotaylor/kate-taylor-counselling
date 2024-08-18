@@ -1,9 +1,12 @@
+import profilePic from '../assets/profilePic.jpeg'
+
+
 export default function Testimonial() {
     return (
       <section className="relative isolate overflow-hidden text-center px-6 py-24 sm:py-32 lg:px-8 playfair-regular ">
      
         <div className="mx-auto max-w-2xl lg:max-w-3xl">
-          <figure className="mt-10 bg-[#677d6a] rounded-xl p-12">
+          <figure className=" bg-[#677d6a] rounded-xl p-12">
             <blockquote className="text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9 gap-4 flex flex-col">
        
               <p className="text-3xl">
@@ -24,6 +27,8 @@ export default function Testimonial() {
               </div>
             </figcaption>
           </figure>
+          {/* <img src={profilePic} className='rounded-full w-1/2 mt-24' /> */}
+
         </div>
       </section>
     )

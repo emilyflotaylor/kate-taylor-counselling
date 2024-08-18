@@ -6,13 +6,17 @@ import WhatIDo from './Components/WhatIDo';
 import GetInTouch from './Components/GetInTouch';
 import Testimonial from './Components/Testimonial';
 import Footer from './Components/Footer';
+import profilePic from './assets/profilePic.jpeg'
+import Quote from './Components/Quote';
+
+
 
 const App: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <Hero />
-      <WhoIAm />
-      <WhatIDo/>
+      <Quote/>
+
       <Testimonial/>
       <GetInTouch/>
       <Footer/>
