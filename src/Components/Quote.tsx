@@ -36,7 +36,7 @@ const Quote: React.FC = () => {
         <TextBlock text="I understand our reactions to life’s inevitable challenges are often automatic, unconscious and unhelpful coping mechanisms, rooted in our past. What is triggered often relates to old attachment and trauma wounds." />
         <TextBlock text="I also have empathy for the reasons you might consciously work hard at masking, numbing or suppressing your pain. It might be to protect your loved ones or to prevent social stigma or discrimination." />
         <TextBlock text="But my professional and personal life have demonstrated that these ways of living are hard work and your true self, who needs and deserves to be accepted and loved to thrive, gets lost in the process. This can become incredibly debilitating, leading to periods of depression, anxiety, physical illness, addiction or even breakdown." />
-        <Header text="I have helped people from all walks of life navigate grief and loss, anxiety, depression, work-stress, ME/Chronic Fatigue, women’s and relationship issues." />
+        <Header text="I have helped people from all walks of life navigate anxiety, depression, work-stress, grief and loss, ME/Chronic Fatigue, women’s and relationship issues." />
       </div>
     </div>
   );
